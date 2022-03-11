@@ -65,7 +65,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="ps-md-4">
-                <Button text="Join Our Discord" />
+                <Button text="Join Our Discord" styles={{ padding: "10px" }} />
               </li>
             </ul>
           </div>
