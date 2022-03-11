@@ -128,7 +128,7 @@ const Home = () => {
                     on the Ethereum blockchain and hosted on IPFS. <br />{" "}
                     <span className="active">Reveal on October 20th.</span>
                   </p>
-                  <form className="w-100 d-flex" style={{ marginTop: "5%" }}>
+                  <form className="w-100 d-md-flex" style={{ marginTop: "5%" }}>
                     <input
                       className="w-100 me-2 roboto-font"
                       type="email"
@@ -136,7 +136,11 @@ const Home = () => {
                       required
                       autoFocus
                     />
-                    <Button styles={{ fontSize: "28px" }} text="Register" />
+                    <Button
+                      cssClasses={["mt-2", "mt-md-0", "register-btn"]}
+                      styles={{ fontSize: "28px" }}
+                      text="Register"
+                    />
                   </form>
                 </Box>
               </Flex>
