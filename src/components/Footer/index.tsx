@@ -39,13 +39,12 @@ const Footer = () => {
             <Image src={LogoImage} width="180px" />
             <Box cssClasses={["py-3 py-md-0"]}>
               <span className="grey mx-4">
-                <a href="" className="grey">
-                  {" "}
+                <a href="/" className="grey">
                   Terms of Service
                 </a>
               </span>
               <span className="grey mx-4">
-                <a href="" className="grey">
+                <a href="/" className="grey">
                   Privacy Policy
                 </a>
               </span>
