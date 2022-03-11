@@ -1,0 +1,26 @@
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-btn {
+  color: white;
+  padding: 10px 35px;
+  background: linear-gradient(90deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  border: none;
+}
+
+.box-btn {
+  border: 3px solid #000000;
+  box-shadow: -10px -7px black;
+  margin-left: 10px;
+}
+
+input {
+  outline: none;
+  border: 2.72px solid #7918f2;
+  background: transparent;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}

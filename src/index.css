@@ -1,0 +1,296 @@
+@import "./assets/styles/header.css";
+@import "./assets/styles/button.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./assets/styles/slider.css";
+@import "./assets/styles/teambox.css";
+@import "./assets/styles/scrollbar.css";
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size: 18px;
+  background-color: #121212;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.poppins-font {
+  font-family: Poppins;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-container {
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 144px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-weight: 500 !important;
+  font-size: 48px;
+  line-height: 56.25px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+h6 {
+  font-size: 28px;
+}
+
+p.text-md {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.active {
+  color: #7918f2;
+}
+
+p.text-sm {
+  font-size: 15px;
+}
+
+.grey {
+  color: #a7a7a7;
+}
+
+.orange {
+  color: #e2c668;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text1 {
+  background: linear-gradient(90deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  -webkit-background-clip: text;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+}
+
+.gradient-border-bottom {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+}
+
+.home-content {
+  position: relative;
+}
+
+.bg-1 {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  z-index: -1;
+  width: 23%;
+}
+
+.bg-2 {
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+  z-index: -1;
+  width: 65%;
+}
+
+.pattern1 {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  z-index: -1;
+  width: 50%;
+}
+
+.pattern2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0%;
+  z-index: 0;
+  width: 40%;
+}
+
+.collection-section {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  z-index: 10;
+}
+
+.signup-section {
+  padding: 115px 0;
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    margin-top: 20px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1240px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .title-image {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px !important;
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 100px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  p.text-md {
+    font-size: 20px;
+  }
+
+  .custom-btn {
+    font-size: 20px !important;
+  }
+
+  .box-btn {
+    font-size: 24px !important;
+  }
+
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px !important;
+  }
+
+  h1 {
+    font-size: 46px;
+    line-height: 100px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  p.text-md {
+    font-size: 18px;
+  }
+
+  .collection-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .signup-section {
+    padding: 50px 0;
+  }
+}
